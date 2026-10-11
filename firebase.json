@@ -1,0 +1,25 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aegis-a3442",
+          "appId": "1:874672955529:android:71b1c7c4b7aab8df022658",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aegis-a3442",
+          "configurations": {
+            "android": "1:874672955529:android:71b1c7c4b7aab8df022658",
+            "ios": "1:874672955529:ios:6a732436d098c80f022658"
+          }
+        }
+      }
+    }
+  }
+}
